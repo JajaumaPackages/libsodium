@@ -1,5 +1,5 @@
 Name:           libsodium
-Version:        1.0.11
+Version:        1.0.12
 Release:        1%{?dist}
 Summary:        The Sodium crypto library
 
@@ -61,5 +61,8 @@ find %{buildroot} -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Mon Apr 24 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.0.12-1
+- Update to latest upstream release
+
 * Wed Aug 10 2016 Jajauma's Packages <jajauma@yandex.ru> - 1.0.11-1
 - Public release
